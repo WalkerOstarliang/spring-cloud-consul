@@ -56,7 +56,7 @@
     tips: 如果反过来，要将1个节点从集群中撤掉，可以在该节点上运行consul leave 即可。
     
    5、web ui
-    client启动的时候有个参数 -ui，这代表将启动consul自带的web管理界面，访问 http://xx.xx.xx.xx:8500/ui
+   client启动的时候有个参数 -ui，这代表将启动consul自带的web管理界面，访问 http://xx.xx.xx.xx:8500/ui
     ![image](https://github.com/WalkerOstarliang/spring-cloud-consul/blob/master/picture/consul%E9%A6%96%E9%A1%B5.jpg)
   
   6、spring cloud 集成 consul
@@ -77,7 +77,7 @@
     ![image](https://github.com/WalkerOstarliang/spring-cloud-consul/blob/master/picture/spring-cloud-consul-register.jpg)
     
    7、集群部署
-    可以重新复制一份代码 修改pom.xml中的spring.cloud.consul.discovery.instance-id=agent2,同时端口修改一下
+   可以重新复制一份代码 修改pom.xml中的spring.cloud.consul.discovery.instance-id=agent2,同时端口修改一下
     重新启动spring boot
     登录consul点开spring-cloud-consul 可以看见有多个node提供一个服务:
     ![image](https://github.com/WalkerOstarliang/spring-cloud-consul/blob/master/picture/spring-cloud-consul-nodes.jpg)
