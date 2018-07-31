@@ -63,14 +63,15 @@
   
   本文使用idea创建项目File ->> New ->> Project ->>Spring Initialir ->> {type:maven project ; packaging: jar} ->> {Web:Web; Cloud    Discovery : Consul Discovery； Ops ： Actuator} ->> Finish
     spring-cloud支持consul的服务发现与注册，Actuator 支持健康检查，springboot具体配置：
-    pom.xml
+   pom.xml
     ![image](https://github.com/WalkerOstarliang/spring-cloud-consul/blob/master/picture/pom.xml.jpg)
-    application.propeties
+   application.propeties
     ![image](https://github.com/WalkerOstarliang/spring-cloud-consul/blob/master/picture/application.properties.jpg)
-    controller:
+    
+   controller:
     ![image](https://github.com/WalkerOstarliang/spring-cloud-consul/blob/master/picture/controller.jpg)
     启动spring boot便可
-    登录consul查看 spring-cloud-consul服务注册完成
+   登录consul查看 spring-cloud-consul服务注册完成
     ![image](https://github.com/WalkerOstarliang/spring-cloud-consul/blob/master/picture/spring-cloud-consul-register.jpg)
     
    7、集群部署
