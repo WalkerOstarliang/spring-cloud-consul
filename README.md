@@ -77,7 +77,6 @@
     ![image](https://github.com/WalkerOstarliang/spring-cloud-consul/blob/master/picture/spring-cloud-consul-register.jpg)
     
    7、集群部署
-   
     可以重新复制一份代码 修改pom.xml中的spring.cloud.consul.discovery.instance-id=agent2,同时端口修改一下
     重新启动spring boot
     登录consul点开spring-cloud-consul 可以看见有多个node提供一个服务:
