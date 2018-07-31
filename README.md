@@ -65,26 +65,20 @@
     spring-cloud支持consul的服务发现与注册，Actuator 支持健康检查，springboot具体配置：
     pom.xml
     ![image](https://github.com/WalkerOstarliang/spring-cloud-consul/blob/master/picture/pom.xml.jpg)
-    
-    application.properties:
+    application.propeties
     ![image](https://github.com/WalkerOstarliang/spring-cloud-consul/blob/master/picture/application.properties.jpg)
-    
     controller:
     ![image](https://github.com/WalkerOstarliang/spring-cloud-consul/blob/master/picture/controller.jpg)
-    
     启动spring boot便可
     登录consul查看 spring-cloud-consul服务注册完成
     ![image](https://github.com/WalkerOstarliang/spring-cloud-consul/blob/master/picture/spring-cloud-consul-register.jpg)
     
-    
    7、集群部署
-    
     可以重新复制一份代码 修改pom.xml中的spring.cloud.consul.discovery.instance-id=agent2,同时端口修改一下
-    
     重新启动spring boot
-    
     登录consul点开spring-cloud-consul 可以看见有多个node提供一个服务
-    ![image](https://github.com/WalkerOstarliang/spring-cloud-consul/blob/master/picture/spring-cloud-consul-nodes.jpg）
+    ![image](https://github.com/WalkerOstarliang/spring-cloud-consul/blob/master/picture/spring-cloud-consul-nodes.jpg)
+    
     
     
 
